@@ -1,0 +1,2 @@
+pozitivTomb=["Ügyes!","Nem is rossz!","WOW! Létezel! :D","Zseniális!","Szép volt!"]
+negativTomb=["Agyadat hol hagytad?","Nem vagyok lenyűgözve!",`"brain.exe has stopped working." Látom!`,"Nehogy már nekem kelljen csinálni mindent!","...és te suliba jártál?!"]
