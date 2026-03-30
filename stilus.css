@@ -1,9 +1,16 @@
 .kvizkep{
-    width: 230px;
+    width: 100px;
 }
 #kepek{
     text-align: center;
 }
 h1{
     text-align: center;
+}
+#nagyKep img{
+    width: 300px;
+}
+#nagyKep,#gombok{
+    text-align: center;
+    margin-top: 20px;
 }
