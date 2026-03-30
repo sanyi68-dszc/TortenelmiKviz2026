@@ -49,11 +49,11 @@ function kerdes(szam){
 function ertekel(szemely,szam){
     valaszOssz++
     if(szemely==nevekTomb[szam].megoldas){
-        alert(pozitivTomb[Math.floor(Math.random()*pozitivTomb.length)])
+        swal.fire(pozitivTomb[Math.floor(Math.random()*pozitivTomb.length)])
         valaszJo++
     }
     else{
-        alert(negativTomb[Math.floor(Math.random()*negativTomb.length)])
+        swal.fire(negativTomb[Math.floor(Math.random()*negativTomb.length)])
     }
     document.getElementById("eredmeny").innerHTML=`Eredmény: ${valaszJo} jó válasz ${valaszOssz} kérdésből. Százalékos eredmény: ${Math.round((valaszJo/valaszOssz)*100)}%`
     document.getElementById("eredmeny").style.textAlign="center"
